@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contatti — Studio Mariaceleste de Mauro</title>
+<meta name="description" content="Contatta lo Studio Mariaceleste de Mauro a Trani (BT): raccontaci il tuo progetto.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>try{var s=sessionStorage,d=document.documentElement;if(s.getItem('seen'))d.classList.add('seen');if(s.getItem('nav')){d.classList.add('arrive');s.removeItem('nav')}}catch(e){}</script>
+</head>
+<body class="loading">
+
+<div class="preloader" id="preloader"><div class="mark"><span>Mariaceleste de Mauro</span><div class="bar"><i></i></div></div></div>
+<div class="curtain" id="curtain" aria-hidden="true"><span>Mariaceleste de Mauro</span></div>
+<div class="progress" id="progress"></div>
+<div class="cursor" id="cursor"></div>
+
+<header id="header">
+  <div class="wrap">
+    <a href="index.html" class="logo"><b>M</b><span>de Mauro</span></a>
+    <button class="burger" id="burger" aria-label="Apri il menu" aria-expanded="false"><span></span><span></span></button>
+    <nav id="nav" aria-label="Navigazione principale">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="progetti.html">Progetti</a></li>
+        <li><a href="chi-sono.html">Chi sono</a></li>
+        <li><a href="contatti.html" aria-current="page">Contatti</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="page-hero">
+  <div class="orb a"></div>
+  <div class="wrap">
+    <div class="crumbs reveal"><a href="index.html">Home</a><span>/</span><span aria-current="page">Contatti</span></div>
+    <h1 class="split" data-split>Hai un progetto <em>in mente?</em></h1>
+    <p class="lead reveal" style="--delay:.5s">Raccontami la tua idea: ti accompagnerò dalla prima visione alla realizzazione, con cura architettonica e rigore ingegneristico.</p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap contact">
+    <div class="contact-info">
+      <ul class="info-list reveal">
+        <li><span class="ic">⌖</span><span>Trani, Puglia (BT) 76125</span></li>
+        <li><a href="mailto:demauromariaceleste@gmail.com"><span class="ic">✉</span><span>demauromariaceleste@gmail.com</span></a></li>
+        <li><a href="tel:+393755172227"><span class="ic">☏</span><span>+39 375 517 2227</span></a></li>
+      </ul>
+      <a class="link-arrow reveal" href="https://www.google.com/maps/search/?api=1&amp;query=Trani+Puglia+76125" target="_blank" rel="noopener">Apri su Google Maps <span>↗</span></a>
+    </div>
+    <form id="form" class="reveal" style="--delay:.15s" novalidate>
+      <div class="f"><input id="nome" placeholder=" " required><label for="nome">Nome *</label></div>
+      <div class="f"><input id="cognome" placeholder=" " required><label for="cognome">Cognome *</label></div>
+      <div class="f"><input id="email" type="email" placeholder=" " required><label for="email">Email *</label></div>
+      <div class="f"><input id="tel" type="tel" placeholder=" "><label for="tel">Telefono</label></div>
+      <div class="f full">
+        <select id="tipo" required>
+          <option value="" disabled selected hidden></option>
+          <option>Progettazione architettonica</option>
+          <option>Ingegneria strutturale</option>
+          <option>Interior design</option>
+          <option>Altro</option>
+        </select>
+        <label for="tipo">Tipologia di progetto *</label>
+      </div>
+      <div class="f full"><textarea id="msg" rows="3" placeholder=" "></textarea><label for="msg">Messaggio</label></div>
+      <button class="btn magnetic" type="submit">Invia richiesta <span class="arrow">→</span></button>
+      <div class="form-msg" id="formMsg" role="status"></div>
+    </form>
+  </div>
+</section>
+
+<section class="services">
+  <div class="wrap">
+    <div class="sec-label reveal"><b>FAQ</b> Domande frequenti</div>
+    <h2 class="split" data-split>Come <em>iniziamo?</em></h2>
+    <div class="s-list reveal" style="margin-top:50px">
+      <div class="s-item">
+        <button class="s-btn" aria-expanded="false"><span class="s-num">01</span><h3>Come mi metto in contatto?</h3><span class="s-icon">+</span></button>
+        <div class="s-body"><div><p>Compila il modulo, scrivi a demauromariaceleste@gmail.com o chiama il +39 375 517 2227: ti rispondo per capire insieme la tua idea.</p></div></div>
+      </div>
+      <div class="s-item">
+        <button class="s-btn" aria-expanded="false"><span class="s-num">02</span><h3>Quali progetti seguite?</h3><span class="s-icon">+</span></button>
+        <div class="s-body"><div><p>Progettazione architettonica, ingegneria strutturale (anche adeguamento sismico) e interior design, per ambiti privati e pubblici, residenziali e commerciali.</p></div></div>
+      </div>
+      <div class="s-item">
+        <button class="s-btn" aria-expanded="false"><span class="s-num">03</span><h3>Mi accompagnate fino al cantiere?</h3><span class="s-icon">+</span></button>
+        <div class="s-body"><div><p>Sì: dall'analisi di fattibilità e dal concept fino al progetto esecutivo e alla direzione lavori, con un unico interlocutore.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<div class="next">
+  <div class="wrap">
+    <a href="index.html">
+      <div><small>Torna all'inizio</small><h2>Home</h2></div>
+      <span class="circle">→</span>
+    </a>
+    <a class="prev" href="chi-sono.html">← Chi sono</a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="top">
+      <p class="big">Progettare è prendersi cura.</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="progetti.html">Progetti</a></li>
+        <li><a href="chi-sono.html">Chi sono</a></li>
+        <li><a href="contatti.html" aria-current="page">Contatti</a></li>
+      </ul>
+      <ul>
+        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+      </ul>
+    </div>
+    <div class="bottom">
+      <span>© <span id="year"></span> Mariaceleste de Mauro | Ingegnere e Architetto. Tutti i diritti riservati.</span>
+      <span>Trani, Puglia</span>
+    </div>
+  </div>
+</footer>
+<button class="totop" id="totop" aria-label="Torna su">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Progetti — Studio Mariaceleste de Mauro</title>
+<meta name="description" content="I progetti dello Studio Mariaceleste de Mauro: residenziale, interior design, strutture e commerciale.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>try{var s=sessionStorage,d=document.documentElement;if(s.getItem('seen'))d.classList.add('seen');if(s.getItem('nav')){d.classList.add('arrive');s.removeItem('nav')}}catch(e){}</script>
+</head>
+<body class="loading">
+
+<div class="preloader" id="preloader"><div class="mark"><span>Mariaceleste de Mauro</span><div class="bar"><i></i></div></div></div>
+<div class="curtain" id="curtain" aria-hidden="true"><span>Mariaceleste de Mauro</span></div>
+<div class="progress" id="progress"></div>
+<div class="cursor" id="cursor"></div>
+
+<header id="header">
+  <div class="wrap">
+    <a href="index.html" class="logo"><b>M</b><span>de Mauro</span></a>
+    <button class="burger" id="burger" aria-label="Apri il menu" aria-expanded="false"><span></span><span></span></button>
+    <nav id="nav" aria-label="Navigazione principale">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="progetti.html" aria-current="page">Progetti</a></li>
+        <li><a href="chi-sono.html">Chi sono</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="page-hero">
+  <div class="orb a"></div>
+  <div class="wrap">
+    <div class="crumbs reveal"><a href="index.html">Home</a><span>/</span><span aria-current="page">Progetti</span></div>
+    <h1 class="split" data-split>Il valore dello spazio, <em>la bellezza dei dettagli.</em></h1>
+    <p class="lead reveal" style="--delay:.5s">Una selezione di lavori che uniscono architettura e ingegneria: ogni spazio nasce da una relazione tra persone, luoghi e natura.</p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="filters reveal" role="group" aria-label="Filtra i progetti">
+      <button class="chip on" data-filter="tutti">Tutti</button>
+      <button class="chip" data-filter="residenziale">Residenziale</button>
+      <button class="chip" data-filter="interior">Interior design</button>
+      <button class="chip" data-filter="strutture">Strutture</button>
+      <button class="chip" data-filter="commerciale">Commerciale</button>
+    </div>
+    <p class="count-tag">Progetti visualizzati: <b id="shown">6</b></p>
+
+    <div class="pgrid">
+      <div class="cell reveal" data-cat="residenziale">
+        <article class="card tilt">
+          <svg viewBox="0 0 300 380" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="380" fill="#2f4a3c"/><circle cx="220" cy="110" r="46" fill="#b8643c"/><path d="M0 290L90 220L170 270L240 210L300 260V380H0Z" fill="#18271f"/><path d="M50 380V290H150V380" fill="none" stroke="#f4efe7" stroke-width="1.5"/></svg>
+          <div class="info"><div><small>Residenziale</small><h4>Progetto 01</h4></div><span class="go">↗</span></div>
+        </article>
+      </div>
+      <div class="cell reveal" data-cat="interior" style="--delay:.08s">
+        <article class="card c2 tilt">
+          <svg viewBox="0 0 300 380" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="380" fill="#8a4a2a"/><g fill="none" stroke="#f4efe7" stroke-width="1.4" opacity=".85"><circle cx="150" cy="190" r="40"/><circle cx="150" cy="190" r="80"/><circle cx="150" cy="190" r="120"/><path d="M30 190H270M150 70V310"/></g></svg>
+          <div class="info"><div><small>Interior design</small><h4>Progetto 02</h4></div><span class="go">↗</span></div>
+        </article>
+      </div>
+      <div class="cell reveal" data-cat="strutture" style="--delay:.16s">
+        <article class="card c3 tilt">
+          <svg viewBox="0 0 300 380" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="380" fill="#4d6a58"/><g fill="none" stroke="#f4efe7" stroke-width="1.4" opacity=".8"><path d="M40 340V120L150 60L260 120V340Z"/><path d="M40 120H260M150 60V340M95 340V210H205V340"/></g></svg>
+          <div class="info"><div><small>Strutture</small><h4>Progetto 03</h4></div><span class="go">↗</span></div>
+        </article>
+      </div>
+      <div class="cell reveal" data-cat="commerciale">
+        <article class="card c4 tilt">
+          <svg viewBox="0 0 300 380" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="380" fill="#c9b79b"/><circle cx="210" cy="120" r="50" fill="#b8643c"/><g fill="none" stroke="#1f2a24" stroke-width="1.4"><path d="M30 330H270M60 330V200H160V330M160 330V160H240V330"/></g></svg>
+          <div class="info"><div><small>Commerciale</small><h4>Progetto 04</h4></div><span class="go">↗</span></div>
+        </article>
+      </div>
+      <div class="cell reveal" data-cat="residenziale" style="--delay:.08s">
+        <article class="card c5 tilt">
+          <svg viewBox="0 0 300 380" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="380" fill="#18271f"/><g fill="none" stroke="#b8643c" stroke-width="1.6"><path d="M0 300Q75 140 150 230T300 130"/><path d="M0 340Q75 190 150 270T300 180" stroke="#f4efe7" opacity=".5"/></g></svg>
+          <div class="info"><div><small>Residenziale</small><h4>Progetto 05</h4></div><span class="go">↗</span></div>
+        </article>
+      </div>
+      <div class="cell reveal" data-cat="strutture" style="--delay:.16s">
+        <article class="card c6 tilt">
+          <svg viewBox="0 0 300 380" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="380" fill="#6f7f5f"/><g fill="none" stroke="#f4efe7" stroke-width="1.4" opacity=".85"><path d="M30 340H270M60 340V150M240 340V150M60 150H240M60 250H240M60 150L240 250M240 150L60 250"/></g></svg>
+          <div class="info"><div><small>Strutture</small><h4>Progetto 06</h4></div><span class="go">↗</span></div>
+        </article>
+      </div>
+    </div>
+    <p class="empty" id="empty">Nessun progetto in questa categoria.</p>
+    <p class="note">Le anteprime sono segnaposto: sostituisci gli SVG con le foto dei tuoi progetti.</p>
+  </div>
+</section>
+</main>
+
+<div class="next">
+  <div class="wrap">
+    <a href="chi-sono.html">
+      <div><small>Prossima pagina</small><h2>Chi sono</h2></div>
+      <span class="circle">→</span>
+    </a>
+    <a class="prev" href="index.html">← Torna alla home</a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="top">
+      <p class="big">Progettare è prendersi cura.</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="progetti.html" aria-current="page">Progetti</a></li>
+        <li><a href="chi-sono.html">Chi sono</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+      <ul>
+        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+      </ul>
+    </div>
+    <div class="bottom">
+      <span>© <span id="year"></span> Mariaceleste de Mauro | Ingegnere e Architetto. Tutti i diritti riservati.</span>
+      <span>Trani, Puglia</span>
+    </div>
+  </div>
+</footer>
+<button class="totop" id="totop" aria-label="Torna su">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
